@@ -74,6 +74,11 @@ Opsci/
 │   ├── README.md
 │   ├── tsconfig.json
 │   ├── yarn.lock
+│   ├── mosquitto.conf
+│   ├── mqtt-js-test-master/
+│   ├── mosquitto/
+│   ├── mosquitto-data/
+│   ├── mosquitto-log/
 ├── opsci-strapi-frontend-master/  # Frontend - Application React + Vite + TypeScript
 │   ├── node_modules/
 │   ├── public/
@@ -91,9 +96,10 @@ Voici les microservices Kafka utilisés :
 event-producer-master / event-consumer-master
 product-producer-master / product-consumer-master
 stock-producer-master / stock-consumer-master
+mqtt-kafka-connector / mosquitto
 
 ## 🛠 Technologies
-Backend : Strapi v4, PostgreSQL, KafkaJS
+Backend : Strapi v4, PostgreSQL, KafkaJS, MQTT, mosquitto
 Frontend : React, Vite, TypeScript
 DevOps : Docker, Docker Compose
 
